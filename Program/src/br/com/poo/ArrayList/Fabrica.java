@@ -24,15 +24,6 @@ public class Fabrica {
 		System.out.print("Opção: ");
 		int opcao = leia.nextInt();
 		
-		
-		carro.setAno("2014");
-		carro.setCor("Vermelho");
-		carro.setModelo("Chevrolet Onix");
-		carro.setPlaca("IPY2515");
-		carro.setChassi("BR53536387FG");
-		carro.setTracao("4x4");
-		listCarro.add(carro);
-		
 		//Mostrar carros e motos
 		switch (opcao) {
 		case 1:
