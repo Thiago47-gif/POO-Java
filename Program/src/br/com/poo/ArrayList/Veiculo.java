@@ -2,10 +2,10 @@ package br.com.poo.ArrayList;
 
 public class Veiculo {
 
-	private String Cor;
-	private String Ano;
-	private String Modelo;
-	private String Placa;
+	protected String Cor;
+	protected String Ano;
+	protected String Modelo;
+	protected String Placa;
 	
 	
 	public String getCor() {
@@ -33,12 +33,6 @@ public class Veiculo {
 		Placa = placa;
 	}
 	
-	//Override
-	public String toString() {
-		
-		return String.format("Modelo: %s\n", Modelo) +
-		String.format("Cor: %s\n", Cor) +
-		String.format("Ano: %s\n", Ano) +
-		String.format("Placa: %s\n", Placa);
-	}
+	
+	
 }

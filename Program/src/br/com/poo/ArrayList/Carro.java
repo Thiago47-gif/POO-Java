@@ -18,10 +18,17 @@ public class Carro extends Veiculo {
 	public void setTracao(String tracao) {
 		Tracao = tracao;
 	}
-	
+    
 	//Override
 	public String toString() {
-		return String.format("Modelo: %s\n", Tracao) +
-			String.format("Cor: %s\n", Chassi);
+		
+		return String.format("Carro\n") +
+		String.format("Modelo: %s\n", Modelo) +
+		String.format("Cor: %s\n", Cor) +
+		String.format("Ano: %s\n", Ano) +
+		String.format("Placa: %s\n", Placa +
+		String.format("\nModelo: %s\n", Tracao) +
+		String.format("Cor: %s\n", Chassi));
 	}
+	
 }
