@@ -11,7 +11,7 @@ public class Fabrica {
 		carro01.setAno("2011");
 		//Salvar as demais informações
 		
-		//Pegando as informações para imprimir
+		/*Pegando as informações para imprimir*/
 		System.out.println("Dados do Carro:");
 		System.out.println("Cor: " + carro01.getCor());
 		System.out.println("Ano: " + carro01.getAno());
