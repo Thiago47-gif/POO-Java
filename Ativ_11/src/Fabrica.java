@@ -5,16 +5,17 @@ public class Fabrica {
 		Carro carro01;
 		carro01 = new Carro();
 		
-		//Salvando informações
+		//Salvando informaÃ§Ãµes
 		carro01.setCor("Azul");
 		carro01.setAno("2011");
-		//Salvar as demais informações
+		//Salvar as demais informaÃ§Ãµes
 		
-		//Pegando as informações para imprimir
+		//Pegando as informaÃ§Ãµes para imprimir
 		System.out.println("Dados do Carro:");
 		System.out.println("Cor: " + carro01.getCor());
 		System.out.println("Ano: " + carro01.getAno());
-		//Imprimir as demais informações
+		/*Imprimir as demais informaÃ§Ãµes*/
+		
 	}
 
 }
