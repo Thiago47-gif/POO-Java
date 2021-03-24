@@ -1,20 +1,20 @@
 package atividade11;
 
+import java.util.Scanner;
+
 public class Fabrica {
 	public static void main(String[] args) {
 		
-		Carro carro01;
-		carro01 = new Carro();
+		Carro carro;
+		carro = new Carro();
 		
-		//Salvando informações
-		carro01.setCor("Azul");
-		carro01.setAno("2011");
-		//Salvar as demais informações
-		
-		/*Pegando as informações para imprimir*/
-		System.out.println("Dados do Carro:");
-		System.out.println("Cor: " + carro01.getCor());
-		System.out.println("Ano: " + carro01.getAno());
-		//Imprimir as demais informações
+		//Criação do objeto responsável por ler a informação digitada pelo usuário
+		Scanner scan = new Scanner(System.in);
+		//Solicitando informações ao usuário
+		System.out.print("Digite a cor do carro: ");
+		//Lendo a informação e armazenando em uma variável chamada cor
+		String cor = scan.nextLine();
+		//Setando a informação no objeto do tipo Carro
+		carro.setCor(cor);
 	}
 }
